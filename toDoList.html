@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To-Do List</title>
+        <link rel='stylesheet' href='font-awesome/css/font-awesome.min.css'>
+    </head>
+    <body>
+
+        <div id='header'>
+            <img class='logo' id='logo' src='EventMobiLogo.svg' alt='Event Mobi'>
+        </div>
+
+        <div id='content'>
+
+            <div>
+                Event Planner To-Do List
+            </div>
+
+            <div class='toDoItem'>
+                <button type='button' class='btn-Del-Single btn-Danger task-Option'><i class='fa fa-trash-o' aria-hidden='true'></i> Delete</button>
+                <button type='button' class='btn-Edit btn-success task-Option editable'><i class='icon icon--left fa fa-pencil' aria-hidden='true'></i> Edit</button>
+                <p class='name'>BugBear</p>
+                <p>Due Date: June 20 2018</p>
+                <p>Status: To-Do</p>
+                <hr class='my-4'>
+                <p>Make a to-do list</p>
+                <span class='badge badge-info tag'>Tag</span>
+            </div>
+
+        </div>
+
+        <div id='footer'>
+
+            <button id='add' class='btn-Add btn-success' type='button'>
+                <i class='icon icon--left fa fa-plus'></i> Add Task
+            </button>
+
+            <div class='dropdown' id='dropdown'>
+                <select id='sort'>
+                    <option value='Default'>Default</option>
+                    <option value='Name'>Name</option>
+                    <option value='Date'>Date</option>
+                    <option value='Status'>Status</option>
+                    <option value='Tag'>Tag</option>
+                </select>
+            </div>
+
+            <button type='button' id='deleteAll' class='btn-Del-All btn-danger'>
+                <i class='icon icon--left fa fa-trash-o'></i> Delete All
+            </button>
+
+        </div>
+
+    </body>
+</html>
