@@ -1,55 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>To-Do List</title>
+        <title>
+            To-Do List
+        </title>
         <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.6/css/all.css'>
     </head>
     <body>
-
         <div id='header'>
             <img class='logo' id='logo' src='EventMobiLogo.svg' alt='EventMobi'>
         </div>
-
         <div id='content'>
-
             <div>
                 Event Planner To-Do List
             </div>
-
-            <div class='to-do-item'>
-                <button type='button' class='btn-del-single btn-danger btn-base task-option'><i class='fa fa-trash-o' aria-hidden='true'></i> Delete</button>
-                <button type='button' class='btn-edit btn-success btn-base task-option editable'><i class='icon icon--left fa fa-pencil' aria-hidden='true'></i> Edit</button>
-                <p class='name'>BugBear</p>
-                <p>Due Date: June 20 2018</p>
-                <p>Status: To-Do</p>
-                <hr class='my-4'>
-                <p>Make a to-do list</p>
-                <span class='badge badge-info tag'>Tag</span>
-            </div>
-
         </div>
-
         <div id='footer'>
-
             <button id='add' class='btn-add btn-success btn-base' type='button'>
                 <i class='icon icon--left fa fa-plus'></i> Add Task
             </button>
-
             <div id='dropdown'>
                 <select id='sort'>
-                    <option value='Default'>Default</option>
-                    <option value='Name'>Name</option>
-                    <option value='Date'>Date</option>
-                    <option value='Status'>Status</option>
-                    <option value='Tag'>Tag</option>
+                    <option value='default'>Default</option>
+                    <option value='name'>Name</option>
+                    <option value='date'>Date</option>
+                    <option value='status'>Status</option>
+                    <option value='tag'>Tag</option>
                 </select>
             </div>
-
             <button type='button' id='delete-all' class='btn-del-all btn-danger btn-base'>
                 <i class='icon icon--left fa fa-trash-o'></i> Delete All
             </button>
-
         </div>
-
     </body>
 </html>
