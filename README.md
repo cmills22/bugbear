@@ -1,1 +1,1 @@
-Initial Commit for the new BugBear repository.
+BB-88 Base HTML code for main page of to-do items.
