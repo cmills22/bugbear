@@ -1,0 +1,68 @@
+/** 
+  * otherCss.css
+  *
+  * These are the styles for the webpage that don't belong in any specific category
+  *
+  * Index
+  * - btn-dropdown
+  * - btn--has-dropdown
+  * - close
+  * - dropdown-item
+  * - dropdown-item-link
+  * - red
+  * - ui-draggable
+  * - ui-droppable
+  */
+
+.btn-dropdown {
+    display: inline-block;
+}
+.btn--has-dropdown {
+    margin-right: 5px;
+    padding-right: 15px;
+    position: relative;
+}
+.btn--has-dropdown:after {
+    display: block;
+    font-family: "FontAwesome";
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+.dropdown-item {
+    margin: 0;
+}
+.dropdown-item-link {
+    background-color: transparent;
+    border: none;
+    color: #575757;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    padding: 12px 25px 12px 20px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    width: 100%;
+}
+.red {
+    color: red;
+}
+.ui-draggable, .ui-droppable {
+    background-position: top;
+}
+
+
+
