@@ -67,12 +67,14 @@ body {
     border-color: #cac7c7;
     color: #fff;
 }
-.btn-danger.disabled, .btn-danger:disabled {
+.btn-danger.disabled, 
+.btn-danger:disabled {
     background-color: #cac7c7;
     border-color: #cac7c7; 
     color: rgb(180, 21, 21);
 }
-.btn-danger.focus, .btn-danger:focus {
+.btn-danger.focus, 
+.btn-danger:focus {
     background-color: #cac7c7;
     border-color: #cac7c7; 
     color: rgb(180, 21, 21);
@@ -82,12 +84,16 @@ body {
     border-color: #cac7c7; 
     color: rgb(180, 21, 21);
 }
-.btn-danger:not(:disabled):not(.disabled).active, .btn-danger:not(:disabled):not(.disabled):active, .show > .btn-danger.dropdown-toggle {
+.btn-danger:not(:disabled):not(.disabled).active, 
+.btn-danger:not(:disabled):not(.disabled):active, 
+.show > .btn-danger.dropdown-toggle {
     background-color: #cac7c7;
     border-color: #cac7c7; 
     color: rgb(180, 21, 21);
 }
-.btn-danger:not(:disabled):not(.disabled).active:focus, .btn-danger:not(:disabled):not(.disabled):active:focus,.show > .btn-danger.dropdown-toggle:focus {
+.btn-danger:not(:disabled):not(.disabled).active:focus, 
+.btn-danger:not(:disabled):not(.disabled):active:focus,
+.show > .btn-danger.dropdown-toggle:focus {
     box-shadow: 0 0 0 0 #cac7c7;
 }
 .btn-del-all { 
@@ -96,7 +102,8 @@ body {
     margin: 2.2px 15px 0 0;
     padding: 4.5px 28px;
 }
-.btn-success.disabled, .btn-success:disabled {
+.btn-success.disabled,
+.btn-success:disabled {
     background-color: #1e7e34;
     border-color: #1e7e34;
     color: #fff
@@ -111,12 +118,16 @@ body {
     border-color: #1e7e34;
     color: #fff
 }
-.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show > .btn-success.dropdown-toggle {
+.btn-success:not(:disabled):not(.disabled).active, 
+.btn-success:not(:disabled):not(.disabled):active, 
+.show > .btn-success.dropdown-toggle {
     background-color: #1e7e34;
     border-color: #1e7e34;
     color: #fff
 }
-.btn-success:not(:disabled):not(.disabled).active:focus, .btn-success:not(:disabled):not(.disabled):active:focus,.show > .btn-success.dropdown-toggle:focus {
+.btn-success:not(:disabled):not(.disabled).active:focus, 
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.show > .btn-success.dropdown-toggle:focus {
     box-shadow: #1e7e34;
 }
 #content {
