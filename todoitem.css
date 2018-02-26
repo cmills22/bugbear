@@ -122,14 +122,9 @@
     margin: 0 2.5px 0 2.5px;
     padding: 4.5px 20px;
 }
-.my-4 {
-    margin-top: 1.5rem!important
-}
-.my-4 {
-    margin-bottom:1.5rem!important
-}
-.name {
-    font-size: 20px;
+.description-separator {
+    margin-bottom: 1.5rem!important;
+    margin-top: 1.5rem!important;
 }
 #option {
     border-radius: 20px;
