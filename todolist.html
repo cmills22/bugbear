@@ -33,18 +33,17 @@
             </button>
         </div>
         <div>
-            <div></div><!-- form overlay (functions same as modal overlay) -->
             <p>Add Task</p>
             <div>
                 <label>Name</label>
                 <div>100</div><!-- Character limit of text field -->
                 <input type='text'>
-                <small>Maximum of 100 characters.</small>
+                <small>Maximum of 100 characters.</small><!-- If name not entered, this tag will be filled with error message -->
             </div>
             <div>
                 <label>Expected date of completion</label>
                 <input type='text'>
-                <small></small>
+                <small></small><!-- If date not entered, this tag will be filled with error message -->
             </div>
             <div>
                 <label>Status</label>
@@ -53,13 +52,12 @@
                     <option value='in-progress'>In Progress</option>
                     <option value='done'>Done</option>
                 </select>
-                <small></small>
             </div>
             <div>
                 <label>Tag</label>
                 <div>30</div><!-- Character limit of text field -->
                 <input type='text'>
-                <small>Tags help to group tasks together</small>
+                <small>Tags help to group tasks together. Maximum of 30 characters.</small>
             </div>
             <div>
                 <label>Colour of Tag</label>
@@ -70,13 +68,13 @@
                     <option value='orange'>Orange</option>
                     <option value='lorange'>Light Orange</option>
                 </select>
-                <small>Will only have an effect if using a tag</small>
+                <small>Will only have an effect if using a tag.</small>
             </div>
             <div>
                 <label>Description</label>
                 <div>250</div><!-- Character limit of text field -->
                 <textarea></textarea>
-                <small></small>
+                <small>Maximum of 250 characters.</small>
             </div>
             <div>
                 <button type='button'>
