@@ -24,10 +24,6 @@
   * - title
   */
 
-#add {
-    border-radius: 20px;
-    float: left;
-}
 body {
     color: #575757;
     font-family: 'Open Sans', sans-serif;
@@ -37,7 +33,9 @@ body {
 }
 .btn-add {
     background-color: #6ebb83;
+    border-radius: 20px;
     color: #fff;
+    float: left;
     margin: 2.2px 0 0 15px;
     padding: 4.5px 28px;
 }
@@ -95,8 +93,11 @@ body {
 }
 .btn-del-all { 
     background-color: rgb(242, 242, 242);
+    border-radius: 20px;
     color: #d91d2a;
+    float: right;
     margin: 2.2px 15px 0 0;
+    margin-right: 15px;
     padding: 4.5px 28px;
 }
 .btn-success.disabled,
@@ -134,11 +135,6 @@ body {
     margin-top: 90px;
     padding-top: 0;
     text-align: center;
-}
-#delete-all {
-    border-radius: 20px;
-    float: right;
-    margin-right: 15px;
 }
 #dropdown {
     background-color: white;
