@@ -32,103 +32,124 @@
     vertical-align: baseline;
     white-space: nowrap;
 }
+
 .badge .btn {
     position: relative;
     top: -1px;
 }
+
 .badge-danger {
     background-color: #dc3545;
     color: #fff;
 } 
+
 .badge-danger[href]:focus, 
 .badge-danger[href]:hover {
     background-color: #bd2130;
     color: #fff;
     text-decoration: none;
 }
+
 .badge-dark {
     background-color: #343a40;
     color: #fff;
 }
+
 .badge-dark[href]:focus, 
 .badge-dark[href]:hover {
     background-color: #1d2124;   
     color: #fff;
     text-decoration: none;
 } 
+
 .badge:empty {
     display: none;
 }
+
 .badge-info[href]:focus, 
 .badge-info[href]:hover {
     background-color: #117a8b;
     color: #fff;
     text-decoration: none;
 }
+
 .badge-light {
     background-color: #f8f9fa;
     color: #212529;
 }
+
 .badge-light[href]:focus, 
 .badge-light[href]:hover {
     background-color: #dae0e5;
     color: #212529;
     text-decoration: none;
 } 
+
 .badge-pill {
     border-radius: 10rem;
     padding-left: .6em;
     padding-right: .6em;
 }
+
 .badge-secondary {
     background-color: #6c757d;
     color: #fff;
 }
+
 .badge-secondary[href]:focus, 
 .badge-secondary[href]:hover {
     background-color: #545b62;
     color: #fff;
     text-decoration: none;
 }
+
 .badge-success {
     background-color: #28a745;
     color: #fff;
 }
+
 .badge-success[href]:focus, 
 .badge-success[href]:hover {
     background-color: #1e7e34;
     color: #fff;
     text-decoration: none;
 }
+
 .badge-warning {
     color: #212529;
     background-color: #ffc107;
 }
+
 .badge-warning[href]:focus, 
 .badge-warning[href]:hover {
     background-color: #d39e00;
     color: #212529;
     text-decoration: none;
 }  
+
 .btn-del-single {
     background-color: rgb(242, 242, 242);
     color: #d91d2a;
     margin: 0 2.5px 0 2.5px;
     padding: 4.5px 20px;
 }
+
 .btn-edit {
     background-color: #6ebb83;
     color: #fff;
     margin: 0 2.5px 0 2.5px;
     padding: 4.5px 20px;
 }
+
 .description-separator {
     margin-bottom: 1.5rem!important;
     margin-top: 1.5rem!important;
 }
+
 #option {
     border-radius: 20px;
 }
+
 .tag {
     background-color: white;
     border: 1px solid #17a2b8;
@@ -146,10 +167,12 @@
     padding: 4px 10px;
     white-space: nowrap;
 }
+
 .task-option {
     float: right;
     margin-right: 5px;    
 }
+
 .to-do-item {
     background-color: white;
     border-radius: 0;
