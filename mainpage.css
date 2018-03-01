@@ -1,0 +1,223 @@
+/** 
+  *
+  * Index
+  * - #add
+  * - body
+  * - btn-add
+  * - btn-base
+  * - btn-danger
+  * - btn-del-all
+  * - btn-success
+  * - #content
+  * - #delete-all
+  * - #dropdown
+  * - #dropdown-menu-button
+  * - #footer
+  * - #header
+  * - input[type = 'text']
+  * - input[type = 'email']
+  * - textarea (shared properties with input[type = 'text'] and input[type = 'email'])
+  * - #logo
+  * - p
+  * - #sort
+  * - table
+  * - title
+  */
+
+body {
+    color: #575757;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin: 0;
+}
+
+.btn-add {
+    background-color: #6ebb83;
+    border-radius: 20px;
+    color: #fff;
+    float: left;
+    margin: 2.2px 0 0 15px;
+    padding: 4.5px 28px;
+}
+
+.btn-base {
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.btn-base:active {
+    transform: translateY(1px);
+}
+
+.btn-base:focus {
+    outline: #575757 1px dotted;
+    outline-offset: -1px;    
+} 
+
+.btn-danger {
+    background-color: #cac7c7;
+    border-color: #cac7c7;
+    color: #fff;
+}
+
+.btn-danger.disabled, 
+.btn-danger:disabled {
+    background-color: #cac7c7;
+    border-color: #cac7c7; 
+    color: rgb(180, 21, 21);
+}
+
+.btn-danger.focus, 
+.btn-danger:focus {
+    background-color: #cac7c7;
+    border-color: #cac7c7; 
+    color: rgb(180, 21, 21);
+}
+
+.btn-danger:hover {
+    background-color: #cac7c7;
+    border-color: #cac7c7; 
+    color: rgb(180, 21, 21);
+}
+
+.btn-danger:not(:disabled):not(.disabled).active, 
+.btn-danger:not(:disabled):not(.disabled):active, 
+.show > .btn-danger.dropdown-toggle {
+    background-color: #cac7c7;
+    border-color: #cac7c7; 
+    color: rgb(180, 21, 21);
+}
+
+.btn-danger:not(:disabled):not(.disabled).active:focus, 
+.btn-danger:not(:disabled):not(.disabled):active:focus,
+.show > .btn-danger.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0 #cac7c7;
+}
+
+.btn-del-all { 
+    background-color: rgb(242, 242, 242);
+    border-radius: 20px;
+    color: #d91d2a;
+    float: right;
+    margin: 2.2px 15px 0 0;
+    margin-right: 15px;
+    padding: 4.5px 28px;
+}
+
+.btn-success.disabled,
+.btn-success:disabled {
+    background-color: #1e7e34;
+    border-color: #1e7e34;
+    color: #fff
+}
+
+.btn-success.focus, .btn-success:focus {
+    background-color: #1e7e34;
+    border-color: #1e7e34; 
+    color: #fff
+}
+
+.btn-success:hover {
+    background-color: #1e7e34;
+    border-color: #1e7e34;
+    color: #fff
+}
+
+.btn-success:not(:disabled):not(.disabled).active, 
+.btn-success:not(:disabled):not(.disabled):active, 
+.show > .btn-success.dropdown-toggle {
+    background-color: #1e7e34;
+    border-color: #1e7e34;
+    color: #fff
+}
+
+.btn-success:not(:disabled):not(.disabled).active:focus, 
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.show > .btn-success.dropdown-toggle:focus {
+    box-shadow: #1e7e34;
+}
+
+#content {
+    background-color: rgb(242, 242, 242);
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
+    margin-top: 90px;
+    padding-top: 0;
+    text-align: center;
+}
+
+#dropdown {
+    background-color: white;
+    float: left;
+    margin-left: 10px;
+}
+
+#dropdown-menu-button {
+    border-radius: 20px;
+}
+
+#footer {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #e0e0e0;
+    bottom: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#header {
+    background-color: rgb(74, 89, 100);
+    position: fixed;
+    text-align: left;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+input[type = 'text'], 
+input[type = 'email'], 
+textarea {
+    box-shadow: none;
+    width: 100%;
+}
+
+#logo {
+    height: 70px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+p {
+    word-wrap: break-word;
+}
+
+#sort {
+    color: #575757;
+    float: left;
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin-left: 5px;
+    margin-top: 4.5px;
+    outline: 0;
+}
+
+table {
+    font-size: 1em;
+}
+
+.title {
+    font-size: 2.8rem;
+    font-weight: 100;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}  
